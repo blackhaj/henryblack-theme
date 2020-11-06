@@ -10,9 +10,6 @@
   "keywords": [
     "ghost-theme"
   ],
-  "scripts": {
-    "postinstall": "bower install"
-  },
   "dependencies": {
     "clipboard": "^2.0.0",
     "concat": "^3.0.0",
@@ -68,5 +65,8 @@
         "width": 1378
       }
     }
+  },
+  "volta": {
+    "node": "14.15.0"
   }
 }
