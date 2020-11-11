@@ -3,10 +3,11 @@ routes:
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
+  /: start-here
 
 collections:
-  /:
-    permalink: /{slug}/
+  /blog/:
+    permalink: /blog/{slug}/
     template: index
 
 taxonomies:
