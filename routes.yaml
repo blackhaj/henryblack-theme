@@ -1,13 +1,13 @@
 routes:
+  /: home
   /subscribe/: members/subscribe
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
-  /: start-here
 
 collections:
   /blog/:
-    permalink: /blog/{slug}/
+    permalink: /{slug}/
     template: index
 
 taxonomies:
