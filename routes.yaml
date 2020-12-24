@@ -1,5 +1,6 @@
 routes:
-  /: home
+  /:
+    template: index
   /subscribe/: members/subscribe
   /signup/: members/signup
   /signin/: members/signin
@@ -8,7 +9,7 @@ routes:
 collections:
   /blog/:
     permalink: /{slug}/
-    template: index
+    template: blog
 
 taxonomies:
   tag: /tag/{slug}/
