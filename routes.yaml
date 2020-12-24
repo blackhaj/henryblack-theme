@@ -1,6 +1,5 @@
 routes:
-  /:
-    template: index
+  /: index
   /subscribe/: members/subscribe
   /signup/: members/signup
   /signin/: members/signin
